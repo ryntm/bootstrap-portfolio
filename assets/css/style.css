@@ -1,0 +1,194 @@
+body {
+    padding: 0;
+    margin: 0;
+    line-height: 150%;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/chevron.png");
+    /* border-left: 20px; */
+}
+
+a {
+    color: #4aaaa5;
+    
+}
+
+h2 {
+    font-size: 24px;
+    color: #4aaaa5;
+    font-family: 'Helvetica Neue';
+    padding: 15px 0px 15px 0px;
+    border-bottom: 2px solid #cccccc;
+
+}
+
+p {
+    padding: 0px 0px 15px 0px;
+
+}
+
+
+/* header {
+    width: 960px;
+    margin: 0 auto;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    background: #ffffff;
+    padding: 0 0 63px 0;
+
+} */
+
+h1 {
+    padding: 10px 10px;
+    margin: 0 auto;
+    vertical-align: middle;
+    text-align: center;
+    /*margin-bottom: 20px;*/
+    font-size: 28px;
+    color: #ffffff;
+  }
+
+
+
+img.headshot-resize {
+    height: 15%;
+    width: 15%;
+    margin-right: 25px;
+}
+
+footer {
+    margin: 0 auto;
+    position: fixed;
+    bottom: 0%;
+    padding: 0px 0px 5px 0px;
+    background: #666666;
+    color:#ffffff;
+    text-align: center;
+    border-top: 8px solid #4aaaa5;
+    width: 100%
+    
+
+}
+
+button {
+    padding: 15px 40px;
+    margin: 0px 0px 10px 10px;
+    background-color: #4aaaa5;
+    border: none;
+
+}
+
+.header-background {
+    width: 100%;
+    background-color: white;
+    border-bottom: 2px solid #cccccc;
+
+}
+
+
+.text-padding {
+    padding: 10px 0px 10px 10px;
+}
+
+
+.verticalalignmessage {
+    padding: 10px 0px 150px 10px;
+}
+
+
+/* div {
+    padding: 15;
+
+} */
+
+/* .header {
+    width: 960px;
+    margin: 0 auto;
+    float: left;
+    background-color: #ffffff;
+
+} */
+
+/* .container {    
+    width: 960px;
+    box-sizing: border-box;
+    padding: 0px 15px 0px 15px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 2px solid #cccccc;
+
+} */
+
+/* .portfolio-float {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    float: left;
+    padding: 10px;
+
+} */
+
+.portfolio-container {
+    position: relative;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+}
+
+img.portfolio-image {
+    width: 200px;
+    height: 200px;
+
+}
+
+.portfolio-text {
+    position: absolute;
+    top: 125px;
+    background: #4aaaa5;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+
+}
+
+p.footer {
+    padding: 0 0 0 0;
+}
+
+/* .foot-fixed {
+    position: fixed;
+    width: 960px;
+    bottom: 0%;
+    margin: 0 auto;
+
+}  */
+
+#bio-image {
+    float: left;
+}
+
+#title {
+    /* width: 25%; */
+    /* float: left; */
+    background-color:  #4aaaa5;
+}
+
+#nav {
+    /* float: right; */
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    font-size: 18px;
+    width: 100%
+}
+
+#contactmetext {
+    width: 100%;
+
+}
+
+#contactmemessage {
+    width: 100%;
+
+}
