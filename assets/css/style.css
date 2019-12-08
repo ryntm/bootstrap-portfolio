@@ -170,15 +170,17 @@ p.footer {
 
 #title {
     /* width: 25%; */
-    float: left;
+    /* float: left; */
     background-color:  #4aaaa5;
 }
 
 #nav {
     /* float: right; */
-    margin: 0;
+    margin: 0 auto;
+    text-align: center;
     padding: 10px 10px 10px 10px;
     font-size: 18px;
+    width: 100%
 }
 
 #contactmetext {
