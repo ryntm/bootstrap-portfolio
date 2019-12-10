@@ -6,9 +6,163 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Potfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        /* img {
+            max-width: 25%;
+            padding: 0px 15px 15px 0px;
+        } */
+
+        .container {
+            background: white;
+        }
+
+        @media screen and (max-width: 991px) {
+
+            #nav {
+                width: 33%;
+
+            }
+
+            img.portfolio-image {
+                width:200px;
+                height:200px;
+            }
+
+            .portfolio-text {
+                top:125px;
+                width:200px;
+            }
+        }
+
+        @media screen and (max-width:767px) {
+
+            img.portfolio-image {
+                width: 300px;
+                height: 300px;
+                padding: 5px 5px;
+            }
+
+            .portfolio-text {
+                top: 200px;
+                width: 300px;
+            }
+        }
+
+
+    </style>
 
 </head>
 <body>
     
+
+        <nav class="container">
+                <div class="row">
+                        <div class="col-lg-3 rounded" id="title">
+                            <h1>Ryan Tam</h1>
+                        </div>
+
+                        <div class="col-lg-3">
+
+                        </div>
+
+                        <div class="col-lg-6">
+                            <a href="contact.html">
+                            <div class="col-lg-3 float-right" id="nav">
+                                Contact
+
+                            </div>
+                            </a>
+
+                            <a href="portfolio.html">
+                            <div class="col-lg-3 float-right" id="nav">
+                                Portfolio
+
+                            </div>
+                            </a>
+
+                            <a href="index.html">
+                            <div class="col-lg-3 float-right" id="nav">
+                                About me
+                            </div> 
+                            </a>
+                        </div>
+                </div>
+        
+        </nav>
+
+        <br>
+
+
+
+
+        <div class="container">        
+            
+            <div class="row">
+                <div class="col-lg-12">
+                    <header>
+                        <h2>Portfolio</h2>
+
+                    </header>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 d-flex justify-content-center">
+                    <a href="https://podcasts.apple.com/us/podcast/roses-and-thorns/id1192922903">
+                        <img src="assets/images/roses-and-thorns.jpg" class="portfolio-image">
+                        <div>
+                            <p class="portfolio-text">Roses and Thorns</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-4 d-flex justify-content-center">
+                        <a href="https://ryntm.github.io">
+                            <img src="assets/images/github-hp.JPG" class="portfolio-image">
+                            <div>
+                                <p class="portfolio-text">Fun with Colors!</p>
+                            </div>
+                        </a>
+
+                </div>
+
+                <div class="col-md-4 d-flex justify-content-center">
+                        <a href="https://www.weetwoo.org">
+                            <img src="assets/images/weetwoo.jpg" class="portfolio-image">
+                            <div>
+                                <p class="portfolio-text">WEETWOO.COM</p>
+                            </div>
+                        </a>
+
+                </div>
+
+                <div class="col-md-4 d-flex justify-content-center">
+                        <a href="https://www.ryanjtam.org">
+                            <img src="assets/images/ryanjtam.jpg" class="portfolio-image">
+                            <div>
+                                <p class="portfolio-text">RYANJTAM.COM</p>
+                            </div>
+                        </a>
+
+                </div>
+
+
+
+
+
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+        <footer>
+                <p class="footer">Copyright</p>
+        </footer>
 </body>
 </html>
