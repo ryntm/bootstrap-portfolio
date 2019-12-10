@@ -12,6 +12,17 @@ a {
     
 }
 
+
+h1 {
+    padding: 10px 10px;
+    margin: 0 auto;
+    vertical-align: middle;
+    text-align: center;
+    /*margin-bottom: 20px;*/
+    font-size: 28px;
+    color: #ffffff;
+  }
+
 h2 {
     font-size: 24px;
     color: #4aaaa5;
@@ -36,15 +47,6 @@ p {
 
 } */
 
-h1 {
-    padding: 10px 10px;
-    margin: 0 auto;
-    vertical-align: middle;
-    text-align: center;
-    /*margin-bottom: 20px;*/
-    font-size: 28px;
-    color: #ffffff;
-  }
 
 
 
@@ -58,23 +60,23 @@ footer {
     margin: 0 auto;
     position: fixed;
     bottom: 0%;
-    padding: 0px 0px 5px 0px;
+    /* padding: 0px 0px 5px 0px; */
     background: #666666;
     color:#ffffff;
     text-align: center;
     border-top: 8px solid #4aaaa5;
-    width: 100%
-    
+    width: 100%;
+    font-size: 18;
 
 }
 
-button {
+/* button {
     padding: 15px 40px;
     margin: 0px 0px 10px 10px;
     background-color: #4aaaa5;
     border: none;
 
-}
+} */
 
 .header-background {
     width: 100%;
@@ -83,10 +85,10 @@ button {
 
 }
 
-
+/* 
 .text-padding {
     padding: 10px 0px 10px 10px;
-}
+} */
 
 
 .verticalalignmessage {
@@ -135,17 +137,19 @@ button {
 }
 
 img.portfolio-image {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
+    padding: 5px 5px;
 
 }
 
 .portfolio-text {
     position: absolute;
-    top: 125px;
+    padding: 10px 0 0 0;
+    top: 200px;
     background: #4aaaa5;
     height: 50px;
-    width: 200px;
+    width: 300px;
     text-align: center;
     vertical-align: middle;
     color: white;
@@ -153,7 +157,8 @@ img.portfolio-image {
 }
 
 p.footer {
-    padding: 0 0 0 0;
+    padding: 10px 0 0 0;
+    
 }
 
 /* .foot-fixed {
@@ -180,7 +185,12 @@ p.footer {
     text-align: center;
     padding: 10px 10px 10px 10px;
     font-size: 18px;
-    width: 100%
+    width: 100%;
+
+}
+
+#nav a:hover {
+    color: #ffffff;
 }
 
 #contactmetext {
