@@ -37,6 +37,9 @@ p {
 
 }
 
+p.contactmetext {
+    padding: 0 0;
+}
 
 /* header {
     width: 960px;
@@ -70,13 +73,13 @@ footer {
 
 }
 
-/* button {
+button {
     padding: 15px 40px;
     margin: 0px 0px 10px 10px;
     background-color: #4aaaa5;
     border: none;
 
-} */
+}
 
 .header-background {
     width: 100%;
