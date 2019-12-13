@@ -41,17 +41,6 @@ p.contactmetext {
     padding: 0 0;
 }
 
-/* header {
-    width: 960px;
-    margin: 0 auto;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    background: #ffffff;
-    padding: 0 0 63px 0;
-
-} */
-
-
-
 
 img.headshot-resize {
     height: 15%;
@@ -82,55 +71,13 @@ button {
 
 }
 
-.header-background {
-    width: 100%;
-    background-color: white;
-    border-bottom: 2px solid #cccccc;
-
-}
-
-/* 
-.text-padding {
-    padding: 10px 0px 10px 10px;
-} */
-
 
 .verticalalignmessage {
     padding: 10px 0px 150px 10px;
 }
 
 
-/* div {
-    padding: 15;
 
-} */
-
-/* .header {
-    width: 960px;
-    margin: 0 auto;
-    float: left;
-    background-color: #ffffff;
-
-} */
-
-/* .container {    
-    width: 960px;
-    box-sizing: border-box;
-    padding: 0px 15px 0px 15px;
-    margin: 0 auto;
-    background-color: #ffffff;
-    border: 2px solid #cccccc;
-
-} */
-
-/* .portfolio-float {
-    position: relative;
-    height: 200px;
-    width: 200px;
-    float: left;
-    padding: 10px;
-
-} */
 
 .portfolio-container {
     position: relative;
@@ -165,13 +112,6 @@ p.footer {
     
 }
 
-/* .foot-fixed {
-    position: fixed;
-    width: 960px;
-    bottom: 0%;
-    margin: 0 auto;
-
-}  */
 
 #bio-image {
     float: left;
@@ -193,9 +133,7 @@ p.footer {
 
 }
 
-#nav a:hover {
-    color: #ffffff;
-}
+
 
 #contactmetext {
     width: 100%;
